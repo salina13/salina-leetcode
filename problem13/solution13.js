@@ -11,6 +11,5 @@ var cancellable = function (fn, args, t) {
   const cancelFn = () => {
     clearTimeout(timeoutId);
   };
-
   return cancelFn;
 };
